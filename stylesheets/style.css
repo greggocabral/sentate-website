@@ -17,6 +17,23 @@
     text-overflow:ellipsis;
 }
 
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 70%;
+}
+
+.link:active {
+  text-decoration: none;
+  color: white;
+}
+
+
 .mb-6 {
   margin-bottom: 6vh;
 }
@@ -108,15 +125,6 @@
   font-weight: 800;
 }
 
-a{
-  color:#66cccc;
-}
-
-a:hover{
-  text-decoration: none;
-  color: #4d9c9c;
-  opacity: 70%;
-}
 
 .sentate-font{
   font-family: 'Khula', sans-serif;
